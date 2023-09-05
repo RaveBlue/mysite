@@ -1,0 +1,21 @@
+.bottom-container {
+  background-color: #c2e2fc;
+  padding: 30px 0 10px;
+  text-align: center;
+}
+
+.footer-img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.footer {
+  bottom: 0;
+}
