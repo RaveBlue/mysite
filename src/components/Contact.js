@@ -4,6 +4,8 @@ import cloudone from "./cloudone.png";
 import clo from "./clo.png";
 import contactus from "./contactus.png";
 import app from "./app.png";
+//import RavenResume from "./RavenResume.pdf";
+//import { Document, Page } from "react-pdf";
 
 const Contact = () => {
   return (
@@ -17,7 +19,7 @@ const Contact = () => {
           <img className="me" src={clo} alt="contact" />
           <h2>Hello.</h2>
           <p className="intro">
-            You can contact me on LinkedIn, through email or by phone.
+            You can contact me on LinkedIn, through Email or by Phone.
           </p>
         </div>
         <hr />
@@ -42,14 +44,12 @@ const Contact = () => {
               <h3>Links</h3>
               <ul>
                 <li>
-                  <strong>LinkedIn</strong>
-                  <a href="https://github.com/RaveBlue"></a>
-                </li>
-                <li>
-                  <strong>Github</strong>
-                </li>
-                <li>
-                  <strong>Resume</strong>
+                  <a
+                    className="resume"
+                    href="https://docs.google.com/document/d/1ErfEPhA3GOZN9oltJF4SZqJKsY5jPKuqQ6ooMSOPqgI/edit?usp=drive_link"
+                  >
+                    <strong>Resume &rarr;</strong>
+                  </a>
                 </li>
               </ul>
             </div>

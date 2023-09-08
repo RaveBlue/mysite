@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import name from "./name.png";
+import homebutton from "./homebutton.png";
 
 const Navbar = (props) => {
   return (
