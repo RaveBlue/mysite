@@ -64,6 +64,9 @@ h1 {
   color: #66bfbf;
 }
 
+.select1 {
+  color: #509898;
+}
 .featured {
   width: 720px;
   margin: 0 auto;
@@ -101,4 +104,95 @@ h1 {
   padding-right: 25px;
   padding-bottom: 20px;
   text-align: left;
+}
+.fourth {
+  width: 720px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-color: #eee;
+  color: #66bfbf;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.fifth {
+  width: 720px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-color: #eee;
+  color: #66bfbf;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.sixth {
+  width: 720px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-color: #eee;
+  color: #66bfbf;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.seventh {
+  width: 720px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-color: #eee;
+  color: #66bfbf;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.eighth {
+  width: 720px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  background-color: #eee;
+  color: #66bfbf;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.weblink,
+.weblink1 {
+  color: rgb(103, 167, 231);
+  text-decoration: none;
+}
+.weblink:hover,
+.weblink1:hover {
+  color: rgb(232, 145, 166);
+}
+.weblink1 {
+  margin-left: 10px;
+}
+.description {
+  font-style: italic;
+}
+.description1 {
+  margin-left: 120px;
+  font-style: italic;
+}
+.description2 {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.description3 {
+  margin-top: 10px;
 }

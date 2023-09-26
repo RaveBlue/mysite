@@ -30,11 +30,13 @@ const About = () => {
             <img className="code" src={coding} alt="code" />
             <h3>Design & Development</h3>
             <p>
-              I decided to learn to code when I came across this multimedia
-              class, and we learned about different media careers. I came across
-              web development and found it very interesting, so I switched from
-              a degree in Physical therapy to a degree in web design and
-              development.
+              I first decided to learn to code when I came across this
+              multimedia class, and we learned about different media careers. I
+              came across web development and found it very interesting, so I
+              switched from a degree in Physical therapy to a degree in web
+              design and development. I then decided to join a coding bootcamp
+              and I was able to join Fullstack Academy through Colorado State
+              University.
             </p>
           </div>
           <div className="skill-row">
