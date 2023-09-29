@@ -45,12 +45,14 @@ const Portfolio = () => {
           <Link
             className="weblink"
             to="https://lighthearted-belekoy-7b81db.netlify.app/"
+            target="_blank"
           >
             BMI Calculator
           </Link>
           <Link
             className="weblink1"
             to="https://github.com/RaveBlue/calculatorBMI.git"
+            target="_blank"
           >
             Github
           </Link>
@@ -60,7 +62,7 @@ const Portfolio = () => {
             A BMI calculator to calculate a persons body mass index.
           </li>
           <li className="description2">
-            Designed and developed with Node.js, Express.js, HTML, CSS. Soley
+            Designed and developed with Node.js, Express.js, HTML, CSS. Solely
             responsible for the development of this project.
             <li className="description2">
               The calculator helps calculate if a person is underweight, normal,
@@ -78,6 +80,7 @@ const Portfolio = () => {
           <Link
             className="weblink"
             to="https://spectacular-melba-bf9a76.netlify.app"
+            target="_blank"
           >
             Peaches and Cream website link
           </Link>
@@ -97,12 +100,13 @@ const Portfolio = () => {
         <h3>Strangers Things</h3>
         <img className="image" src={coding} alt="code page" />
         <p className="select1">
-          Strangers Things|Developer|December/2022|in main branch&rarr;
+          Strangers Things|Developer|December/2022|&rarr;
           <Link
             className="weblink"
-            to="https://github.com/RaveBlue/react-strangers-things.git"
+            to="https://github.com/RaveBlue/strangers_things.git"
+            target="_blank"
           >
-            Github Link
+            Github
           </Link>
         </p>
         <ul>
@@ -123,12 +127,17 @@ const Portfolio = () => {
         <img className="image" src={snake} alt="snake" />
         <p className="select1">
           Snake Game|Developer|Nov/2022|&rarr;
-          <Link className="weblink" to="https://teal-flan-c996b8.netlify.app/">
+          <Link
+            className="weblink"
+            to="https://teal-flan-c996b8.netlify.app/"
+            target="_blank"
+          >
             Snake Game
           </Link>
           <Link
             className="weblink1"
             to="https://github.com/RaveBlue/Snake_Game_Arcade.git"
+            target="_blank"
           >
             Github
           </Link>
@@ -154,6 +163,7 @@ const Portfolio = () => {
           <Link
             className="weblink"
             to="https://capable-puppy-8ae17c.netlify.app/"
+            target="_blank"
           >
             CSS Design Link
           </Link>
@@ -173,11 +183,12 @@ const Portfolio = () => {
         <h3>Fitness Tracker Front-end</h3>
         <img className="image" src={heartrate} alt="heartrate watch" />
         <p className="select1">
-          Fitness Tracker|Developer|Designer|Feb/2023|&rarr;
-          <Link className="weblink" to="">
-            Fitness Tracker
-          </Link>
-          <Link className="weblink1" to="">
+          Fitness Tracker|Developer|Designer|2023|In-progress&rarr;
+          <Link
+            className="weblink1"
+            to="https://github.com/RaveBlue/fitnesstracker.git"
+            target="_blank"
+          >
             Github
           </Link>
         </p>
@@ -195,10 +206,10 @@ const Portfolio = () => {
         <img className="image" src={icecream} alt="icecream" />
         <p className="select1">
           Divine Ice-cream|Developer|Designer|April/2023|&rarr;
-          <Link className="weblink" to="">
+          <Link className="weblink" to="" target="_blank">
             Divine Ice-cream
           </Link>
-          <Link className="weblink1" to="">
+          <Link className="weblink1" to="" target="_blank">
             Github
           </Link>
         </p>
@@ -208,7 +219,7 @@ const Portfolio = () => {
             up with.
           </li>
           <li className="description3">
-            Designed using HTML, CSS. Adobe Illustrator was used to design
+            Designed using React, JSX, CSS. Adobe Illustrator was used to design
             ice-cream images and the logo. Solely responsible for the
             development of this project, from conceptualization to deployment.
           </li>

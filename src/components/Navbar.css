@@ -24,6 +24,10 @@
   position: relative;
   margin: 10px 15px 15px 10px;
 }
+.name {
+  font-size: 32px;
+  margin-top: 10px;
+}
 
 .nav-link {
   color: #ffffff;
