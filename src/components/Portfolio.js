@@ -9,6 +9,7 @@ import icecream from "./icecream.png";
 import smoothie from "./smoothie.png";
 import snake from "./snake.png";
 import css from "./css.png";
+import flashcard from "./flashcard.png";
 const Portfolio = () => {
   return (
     <div className="main">
@@ -19,22 +20,32 @@ const Portfolio = () => {
       <p> Things I've built:</p>
 
       <article class="featured">
-        <h3>The First Project</h3>
+        <h3>Language Flashcards</h3>
 
-        <img class="image" src={coding} alt="coding icon" />
+        <img class="image" src={flashcard} alt="coding icon" />
         <p className="select1">
-          This first project was a website for a Divine Protein Ice-cream
-          website.
+          Language Learning Flashcards|Developer|2022 &rarr;
+          <Link
+            className="weblink"
+            to="https://github.com/RaveBlue/flashcards.git"
+            target="_blank"
+          >
+            Github
+          </Link>
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi at
-          earum fuga harum alias nobis, eaque optio laudantium dolor sed
-          eligendi consequatur distinctio aperiam accusantium, architecto
-          exercitationem perferendis minus error. Fuga dolore impedit suscipit,
-          vero odit, sequi in deleniti, odio ipsa facere et. Consequatur modi
-          cum ullam adipisci unde amet qui sed odio officia ipsa omnis earum
-          quibusdam, dolor totam?
-        </p>
+        <ul>
+          <li className="description">
+            Language learning flashcards to learn French vocabulary words.
+          </li>
+          <li className="description3">
+            Developed using Python and png images. This flashcard app is made
+            for the user to learn French. It has an X or check mark button for
+            the user to select. The flashcards give the user a few seconds
+            before it shows the answer in english and from there the user
+            decides if they know the word or not, so the flashcards can move on
+            to the next word.
+          </li>
+        </ul>
       </article>
 
       <article className="second">
