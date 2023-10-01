@@ -10,6 +10,7 @@ import smoothie from "./smoothie.png";
 import snake from "./snake.png";
 import css from "./css.png";
 import flashcard from "./flashcard.png";
+
 const Portfolio = () => {
   return (
     <div className="main">
@@ -31,6 +32,14 @@ const Portfolio = () => {
             target="_blank"
           >
             Github
+          </Link>
+          <Link
+            className="weblink1"
+            to="https://youtu.be/UDxW3npOcRA.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Youtube
           </Link>
         </p>
         <ul>
@@ -66,6 +75,14 @@ const Portfolio = () => {
             target="_blank"
           >
             Github
+          </Link>
+          <Link
+            className="weblink1"
+            to="https://youtu.be/3WceVdxpffg.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Youtube
           </Link>
         </p>
         <ul>
@@ -225,6 +242,14 @@ const Portfolio = () => {
             target="_blank"
           >
             Github
+          </Link>
+          <Link
+            className="weblink1"
+            to="https://www.youtube.com/watch?v=oTEKzfPF2aY&feature=youtu.be.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Youtube
           </Link>
         </p>
         <ul>
