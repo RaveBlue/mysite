@@ -216,11 +216,14 @@ const Portfolio = () => {
         <h3>Divine Protein Ice-cream</h3>
         <img className="image" src={icecream} alt="icecream" />
         <p className="select1">
-          Divine Ice-cream|Developer|Designer|April/2023|&rarr;
-          <Link className="weblink" to="" target="_blank">
-            Divine Ice-cream
-          </Link>
-          <Link className="weblink1" to="" target="_blank">
+          Divine Protein Ice-cream|Developer|Designer|2023|In-progress&rarr;
+          {/*<Link className="weblink" to="" target="_blank">
+            Divine Ice-cream</Link>*/}
+          <Link
+            className="weblink1"
+            to="https://github.com/RaveBlue/ice-cream-design.git"
+            target="_blank"
+          >
             Github
           </Link>
         </p>
