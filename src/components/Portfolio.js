@@ -10,6 +10,7 @@ import smoothie from "./smoothie.png";
 import snake from "./snake.png";
 import css from "./css.png";
 import flashcard from "./flashcard.png";
+import pizza from "./pizza.png";
 
 const Portfolio = () => {
   return (
@@ -136,6 +137,13 @@ const Portfolio = () => {
           >
             Github
           </Link>
+          <Link
+            className="weblink1"
+            to="https://strangers-things-21.netlify.app"
+            target="_blank"
+          >
+            Strangers Things
+          </Link>
         </p>
         <ul>
           <li className="description">
@@ -261,6 +269,40 @@ const Portfolio = () => {
             Designed using React, JSX, CSS. Adobe Illustrator was used to design
             ice-cream images and the logo. Solely responsible for the
             development of this project, from conceptualization to deployment.
+          </li>
+        </ul>
+      </article>
+      <article class="featured">
+        <h3>React Pizza | Delicious Bake Pizza</h3>
+
+        <img class="image" src={pizza} alt="coding icon" />
+        <p className="select1">
+          Pizza Ordering App|Developer|2023 &rarr;
+          <Link
+            className="weblink"
+            to="https://github.com/RaveBlue/React-Pizza.git"
+            target="_blank"
+          >
+            Github
+          </Link>
+          <Link
+            className="weblink1"
+            to="https://react-pizza-21.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Pizza
+          </Link>
+        </p>
+        <ul>
+          <li className="description">
+            Pizza ordering app. Order delicious pizza of your choice!
+          </li>
+          <li className="description3">
+            Developed using React, JSX, Tailwind. This app is made for the user
+            to be able to order pizza and add it to the cart. Once added the
+            user will be given a order number, price and an estimated delivery
+            time for their order.
           </li>
         </ul>
       </article>
