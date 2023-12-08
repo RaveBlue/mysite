@@ -273,7 +273,7 @@ const Portfolio = () => {
         </ul>
       </article>
       <article class="featured">
-        <h3>React Pizza | Delicious Bake Pizza</h3>
+        <h3>React Pizza | Delicious Baked Pizza</h3>
 
         <img class="image" src={pizza} alt="coding icon" />
         <p className="select1">
@@ -287,7 +287,7 @@ const Portfolio = () => {
           </Link>
           <Link
             className="weblink1"
-            to="https://react-pizza-21.netlify.app"
+            to="https://react-pizza21.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
