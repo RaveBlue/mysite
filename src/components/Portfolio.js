@@ -4,7 +4,7 @@ import cloudone from "./cloudone.png";
 import coding from "./coding.png";
 import { Link } from "react-router-dom";
 import calculator from "./calculator.png";
-import heartrate from "./heartrate.png";
+//import heartrate from "./heartrate.png";
 import icecream from "./icecream.png";
 import smoothie from "./smoothie.png";
 import snake from "./snake.png";
@@ -215,7 +215,8 @@ const Portfolio = () => {
           </li>
         </ul>
       </article>
-      <article className="seventh">
+
+      {/*<article className="seventh">
         <h3>Fitness Tracker Front-end</h3>
         <img className="image" src={heartrate} alt="heartrate watch" />
         <p className="select1">
@@ -235,8 +236,8 @@ const Portfolio = () => {
             Back-End API, JSX, CSS. Attracts potential users in their quest to
             get healthy.
           </li>
-        </ul>
-      </article>
+  </ul>
+  </article>*/}
       <article className="eighth">
         <h3>Divine Protein Ice-cream</h3>
         <img className="image" src={icecream} alt="icecream" />
