@@ -30,7 +30,7 @@ function Footer() {
         >
           <img className="footer-img" src={instagram} alt="Instagram" />
         </a>
-        <p className="copyright">All contents &copy; 2023 Raven Ontiveros</p>
+        <p className="copyright">All contents &copy; 2026 Raven Ontiveros</p>
       </div>
     </footer>
   );
