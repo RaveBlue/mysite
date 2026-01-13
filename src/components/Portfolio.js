@@ -9,8 +9,14 @@ import icecream from "./icecream.png";
 import smoothie from "./smoothie.png";
 import snake from "./snake.png";
 import css from "./css.png";
+import puzzle from "./puzzle.png";
+import notes from "./notes.png";
+import graphicdesign from "./graphicdesign.png";
 import flashcard from "./flashcard.png";
 import pizza from "./pizza.png";
+import alaninubardesign from "./alaninubardesign.pdf";
+import bookcover from "./bookcover.pdf";
+import creativetype from "./creativetype.pdf";
 
 const Portfolio = () => {
   return (
@@ -216,6 +222,102 @@ const Portfolio = () => {
         </ul>
       </article>
 
+      <article className="seventh">
+        <h3>Typography & Layout Design</h3>
+        <img className="image" src={graphicdesign} alt="css" />
+        <p className="select1">
+          Layout and Typography designs|Designer|2022|&rarr;
+          <a
+            className="weblink"
+            href={alaninubardesign}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View pdf|
+          </a>
+          <a
+            className="weblink"
+            href={bookcover}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Bookcover|
+          </a>
+          <a
+            className="weblink"
+            href={creativetype}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Text Design
+          </a>
+        </p>
+        <ul>
+          <li className="description">
+            A book cover design, protein bar design and butterfly design using
+            text only using Illustrator.
+          </li>
+          <li className="description3">
+            A book cover designed in Adobe Illustrator, inspired by Alice in
+            Wonderland. A protein bar packaging concept designed using a protein
+            bar itself to create the typography in black ink. As well as a
+            text-based illustration of a butterfly, formed entirely from the
+            letters in its own name.
+          </li>
+        </ul>
+      </article>
+
+      <article className="seventh">
+        <h3>Blue's Printables</h3>
+        <img className="image" src={notes} alt="css" />
+        <p className="select1">
+          Blue's Printables|Designer|2022|&rarr;
+          <Link
+            className="weblink"
+            to="https://blues-printables-bc46ad.netlify.app/"
+            target="_blank"
+          >
+            Website Design Link
+          </Link>
+        </p>
+        <ul>
+          <li className="description">
+            A website designed for an Etsy business called Blue's Printables
+            that focuses on showcasing the brand's visual design.
+          </li>
+          <li className="description3">
+            This project is built with HTML, CSS. This is a design-only website,
+            does not include purchasing functionality, but shows the brand's
+            design and identity.
+          </li>
+        </ul>
+      </article>
+      <article className="seventh">
+        <h3>Guessing Game</h3>
+        <img className="image" src={puzzle} alt="css" />
+        <p className="select1">
+          Guessing Game|Developer|Nov/2022|&rarr;
+          <Link
+            className="weblink"
+            to="https://guessing-game-848f2b.netlify.app/"
+            target="_blank"
+          >
+            Guessing Game Link
+          </Link>
+        </p>
+        <ul>
+          <li className="description">
+            This demonstrates how JavaScript can be used to handle user input,
+            apply conditional logic, and update the interface in real time.
+          </li>
+          <li className="description3">
+            This project is built with HTML, CSS and JavaScript. This is meant
+            to capture and process user input, use conditional statements to
+            check guesses and to update the DOM dynamically based on the game.
+          </li>
+        </ul>
+      </article>
+
       {/*<article className="seventh">
         <h3>Fitness Tracker Front-end</h3>
         <img className="image" src={heartrate} alt="heartrate watch" />
@@ -242,7 +344,7 @@ const Portfolio = () => {
         <h3>Divine Protein Ice-cream</h3>
         <img className="image" src={icecream} alt="icecream" />
         <p className="select1">
-          Divine Protein Ice-cream|Developer|Designer|2023|In-progress&rarr;
+          Divine Protein Ice-cream|Developer|Designer|2025|In-progress&rarr;
           {/*<Link className="weblink" to="" target="_blank">
             Divine Ice-cream</Link>*/}
           <Link
